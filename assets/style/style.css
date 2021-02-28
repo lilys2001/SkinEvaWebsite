@@ -141,3 +141,12 @@ body {
     background-color: #A2708A !important;
     border-color: transparent !important;
 }
+
+.check {
+    list-style: none;
+}
+  
+.check li:before {
+    content: '✓ ';
+    color: #62A363;
+}
